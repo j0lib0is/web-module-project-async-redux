@@ -1,4 +1,41 @@
-
 body {
 	background: #f5f5f5;
+}
+
+p {
+	margin-bottom: 0px;
+}
+
+.title {
+	font-weight: 700;
+}
+
+.container {
+	margin: 48px auto;
+	padding: 24px;
+	border-radius: 16px;
+	background-color: white;
+	box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.price {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.currency {
+	font-size: 24px;
+	font-weight: 700;
+	margin-right: 8px;
+	color: #ff9900;
+}
+
+button {
+	margin-top: 24px;
+	border: none;
+	border-radius: 4px;
+	background-color: #ff9900;
+	color: white;
+	padding: 8px 16px;
 }
